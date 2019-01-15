@@ -45,7 +45,7 @@
 	_sideMenuEntries = [[NSMutableArray alloc] init];
 
 	[_sideMenuEntries
-		addObject:[[SideMenuEntry alloc] initWithTitle:NSLocalizedString(@"Assistant", nil)
+		addObject:[[SideMenuEntry alloc] initWithTitle:NSLocalizedString(@"Add Account", nil)
 											  tapBlock:^() {
 												[PhoneMainView.instance
 													changeCurrentView:AssistantView.compositeViewDescription];
